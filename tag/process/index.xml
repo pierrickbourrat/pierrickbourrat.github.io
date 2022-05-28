@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Process | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/process/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/process/index.xml" rel="self" type="application/rss+xml" />
+    <description>Process</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Process</title>
+      <link>https://pierrickbourrat.github.io/tag/process/</link>
+    </image>
+    
+    <item>
+      <title>Natural Selection and the Reference Grain Problem</title>
+      <link>https://pierrickbourrat.github.io/publication/a-22/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>book review | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/book-review/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/book-review/index.xml" rel="self" type="application/rss+xml" />
+    <description>book review</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>book review</title>
+      <link>https://pierrickbourrat.github.io/tag/book-review/</link>
+    </image>
+    
+    <item>
+      <title>hrefhttp://www.thebsps.org/reviewofbooks/bourrat-on-jablonka-and-lamb/Review textitInheritance Systems and the Extended Evolutionary Synthesis by Eva Jablonka and Marion Lamb</title>
+      <link>https://pierrickbourrat.github.io/publication/br-3/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hrefhttps://ndpr.nd.edu/news/biological-individuality-integrating-scientific-philosophical-and-historical-perspectives/Review of textitBiological Individuality: Integrating Scientific, Philosophical, and Historical Perspectives, by Scott Lidgard and Lynn K. Nyhart (eds.)</title>
+      <link>https://pierrickbourrat.github.io/publication/br-2/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of textitEvolution by Natural Selection: Confidence, Evidence and the Gap, by Michaelis Michael</title>
+      <link>https://pierrickbourrat.github.io/publication/br-1/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

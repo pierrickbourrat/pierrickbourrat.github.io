@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information theory | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/information-theory/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/information-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Information theory</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Information theory</title>
+      <link>https://pierrickbourrat.github.io/tag/information-theory/</link>
+    </image>
+    
+    <item>
+      <title>On Calcott’s Permissive and Instructive Cause Distinction</title>
+      <link>https://pierrickbourrat.github.io/publication/a-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variation of Information as a Measure of One-to-One Causal Specificity</title>
+      <link>https://pierrickbourrat.github.io/publication/a-20/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
