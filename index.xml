@@ -5,7 +5,7 @@
     <link>https://pierrickbourrat.github.io/</link>
       <atom:link href="https://pierrickbourrat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Pierrick Bourrat</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 May 2022 22:05:20 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Pierrick Bourrat</title>
@@ -13,22 +13,41 @@
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://pierrickbourrat.github.io/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+      <title>news</title>
+      <link>https://pierrickbourrat.github.io/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/news/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;twitter-timeline&#34; data-theme=&#34;dark&#34; href=&#34;https://twitter.com/pierrickbourrat?ref_src=twsrc%5Etfw&#34;&gt;Tweets by pierrickbourrat&lt;/a&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conceptual Foundations of Evolutionary Theory</title>
+      <link>https://pierrickbourrat.github.io/project/conceptualisation/</link>
+      <pubDate>Sun, 29 May 2022 22:05:20 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/project/conceptualisation/</guid>
+      <description>&lt;p&gt;One central theme of my research is the conceptual foundation of Evolutionary theory. Many of the concepts used in evolutionary biology have been tailored to particular organisms. I am interested in understanding those concepts once the specificities of these organisms are relaxed. For instance, the concept of fitness and heritability have been mainly used in the context of multicellular organisms, often reproducing sexually. What if we apply those concepts more generally, such as in the context of entities that do not reproduce? In several publications on these topics, I show that we can develop more general concepts and apply them to other evolutionary contexts those within which they have been proposed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multilevel Selection, Evolutionary Transitions in Individuality &amp; The Concept of Individuality </title>
+      <link>https://pierrickbourrat.github.io/project/individuality/</link>
+      <pubDate>Sun, 29 May 2022 21:24:49 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/project/individuality/</guid>
+      <description>&lt;p&gt;Over the last few years, I have been working on multilevel selection and, in collaboration with evolutionary biologists, on the so-called evolutionary transitions in individuality (ETIs). The problem of whether selection acts at more than one level, such as the level of gene, or the level of the orgism, is a central topic in philosophy of biology. A classical response to the debate is to say that levels of selection are a matter of conventions rather than facts. In a recent book, I tackle this issue and argue that the conventional response is not fully adequate. There is a sense in which it can be objectively said that natural selection act at one level rather than the other. I develop an account that can be operationalised and applied in the context of ETIs which have become, in recent years, the focus of the multilevel selection literature.
+Briefly, ETIs are major events in the course of evolution. They include, non-exhaustively, the transition from unicellular to multicellular organisms, the transition from the prokaryotic to the eukoryotic cell or the transition from simple replicators to chromosomes-like entities.&lt;/p&gt;
+&lt;p&gt;This is the topic of two grants I currently hold: a DECRA from the ARC, and grant from the John Templeton Foundation as part of the &lt;a href=&#34;https://www.biologicalpurpose.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Agency, Directionality, and Functon&lt;/a&gt; project hosted by the University of Minnesota.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cultural Evolution &amp; its Interplay with Biological Evolution</title>
+      <link>https://pierrickbourrat.github.io/project/cultural/</link>
+      <pubDate>Sun, 29 May 2022 21:24:10 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/project/cultural/</guid>
+      <description>&lt;p&gt;I have a longlasting interest in cultural evolution. While I have been less active on this topic, I recently published several papers on the fidelity of transmission in cultural evolution. Together with Mathieu Charbonneau, we argue that degree of fidelity of transmission is tightly linked to the grain of description of a particular transmission event, and that contrary to the case of biological transmission there is no general convention for describing cultural evolution at a particular grain.&lt;/p&gt;
+&lt;p&gt;Prior to swtiching to philosophy, I worked on the evolution of religious beliefs. The challenges of integrating the different approach to this phenomenon is one reason that prompted me to move to philosophy.&lt;/p&gt;
 </description>
     </item>
     
@@ -109,6 +128,14 @@
       <link>https://pierrickbourrat.github.io/publication/br-3/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://pierrickbourrat.github.io/publication/br-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facts, Conventions, and the Levels of Selection</title>
+      <link>https://pierrickbourrat.github.io/publication/b-1/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/b-1/</guid>
       <description></description>
     </item>
     
@@ -220,7 +247,8 @@
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
+&lt;div id=&#39;ppl-widget-container&#39;&gt;One moment, publications loading ... (or view them &lt;a href=&#34;https://philpapers.org/profile/65373?widget_failed=1&#34;&gt;here&lt;/a&gt;)&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://philpeople.org/widget/65373.js&#34;&gt;&lt;/script&gt;</description>
     </item>
     
     <item>
@@ -589,25 +617,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://pierrickbourrat.github.io/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Small things, big consequences: Microbiological perspectives on biology</title>
       <link>https://pierrickbourrat.github.io/publication/bc-2/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
@@ -660,6 +669,14 @@ $$&lt;/p&gt;
       <link>https://pierrickbourrat.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pierrickbourrat.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://pierrickbourrat.github.io/event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/event/</guid>
       <description></description>
     </item>
     

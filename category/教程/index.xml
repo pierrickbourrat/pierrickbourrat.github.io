@@ -88,7 +88,8 @@
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
+&lt;div id=&#39;ppl-widget-container&#39;&gt;One moment, publications loading ... (or view them &lt;a href=&#34;https://philpapers.org/profile/65373?widget_failed=1&#34;&gt;here&lt;/a&gt;)&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://philpeople.org/widget/65373.js&#34;&gt;&lt;/script&gt;</description>
     </item>
     
   </channel>
