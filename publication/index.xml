@@ -5,20 +5,12 @@
     <link>https://pierrickbourrat.github.io/publication/</link>
       <atom:link href="https://pierrickbourrat.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 May 2022 11:31:10 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 May 2022 11:30:35 +0000</lastBuildDate>
     <image>
-      <url>https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pierrickbourrat.github.io/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://pierrickbourrat.github.io/publication/</link>
     </image>
-    
-    <item>
-      <title>Division of Labor and Fitness Decoupling in Evolutionary Transitions in Individuality</title>
-      <link>https://pierrickbourrat.github.io/publication/bc-5/</link>
-      <pubDate>Wed, 25 May 2022 11:31:10 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/bc-5/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Evolutionary Transitions in Individuality: a formal analysis</title>
@@ -129,6 +121,14 @@
       <link>https://pierrickbourrat.github.io/publication/a-29/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://pierrickbourrat.github.io/publication/a-29/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Division of Labor and Fitness Decoupling in Evolutionary Transitions in Individuality</title>
+      <link>https://pierrickbourrat.github.io/publication/bc-5/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/bc-5/</guid>
       <description></description>
     </item>
     

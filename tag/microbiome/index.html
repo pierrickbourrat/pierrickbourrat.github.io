@@ -118,6 +118,8 @@
     
     
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
 
     
 
@@ -258,6 +260,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35389415-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-35389415-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -281,8 +322,8 @@
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://pierrickbourrat.github.io/tag/microbiome/" />
 
@@ -309,8 +350,8 @@
   <meta property="og:site_name" content="Pierrick Bourrat" />
   <meta property="og:url" content="https://pierrickbourrat.github.io/tag/microbiome/" />
   <meta property="og:title" content="microbiome | Pierrick Bourrat" />
-  <meta property="og:description" content="Philosopher of Biology" /><meta property="og:image" content="https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Philosopher of Biology" /><meta property="og:image" content="https://pierrickbourrat.github.io/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://pierrickbourrat.github.io/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2018-01-01T00:00:00&#43;00:00" />
@@ -850,50 +891,7 @@
     
     
     <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  
-  <p class="powered-by copyright-license-text">
-    © 2022 Pierrick Bourrat.
-  </p>
-  
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
       
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
     </div>
     
   </div>
@@ -929,10 +927,7 @@
     
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-APnHyidN6JgJuAiwzuCv7oqixqgQv4A"></script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/hpneo/gmaps@0.4.25/gmaps.min.js" integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin="anonymous"></script>
-      
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
     
 
     

@@ -118,6 +118,8 @@
     
     
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
 
     
 
@@ -258,6 +260,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35389415-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-35389415-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -281,8 +322,8 @@
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://pierrickbourrat.github.io/publication/" />
 
@@ -309,11 +350,11 @@
   <meta property="og:site_name" content="Pierrick Bourrat" />
   <meta property="og:url" content="https://pierrickbourrat.github.io/publication/" />
   <meta property="og:title" content="Publications | Pierrick Bourrat" />
-  <meta property="og:description" content="Philosopher of Biology" /><meta property="og:image" content="https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://pierrickbourrat.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Philosopher of Biology" /><meta property="og:image" content="https://pierrickbourrat.github.io/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://pierrickbourrat.github.io/media/icon_hu3ed361d9d59f5576b72511194c466cbf_10525_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2022-05-25T11:31:10&#43;00:00" />
+      <meta property="og:updated_time" content="2022-05-25T11:30:35&#43;00:00" />
     
   
 
@@ -982,135 +1023,6 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2022">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      Guilhem Doulcier</span>, <span >
-      Katrin Hammerschmidt</span>, <span >
-      Pierrick \textbfBourrat$^\dagger$</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>The evolution of multicellularity</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/bc-5/" >Division of Labor and Fitness Decoupling in Evolutionary Transitions in Individuality</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/bc-5/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  
-
-</div>
-
-        </div>
-
-        
-
-        
-          
-        
-
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2022">
           
 
@@ -1120,78 +1032,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-24/" >Evolutionary Transitions in Individuality: a formal analysis</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Synthese</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-24/" >Evolutionary Transitions in Individuality: a formal analysis</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1225,9 +1100,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -1247,76 +1127,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-27/" >Heritability, causal influence and locality</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-27/" >Heritability, causal influence and locality</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1350,9 +1195,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -1372,79 +1222,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-30/" >Fidelity and the Grain Problem in Cultural Evolution</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Mathieu Charbonneau</span>, <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Synthese</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-30/" >Fidelity and the Grain Problem in Cultural Evolution</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1478,9 +1291,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -1500,82 +1318,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-32/" >The Idea of Mismatch in Evolutionary Medicine</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>, <span >
       Paul Griffiths</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
-    
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <ul>
-<li>British Journal for the Philosophy of Science *</li>
-</ul>
+    </div>
 
     
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-32/" >The Idea of Mismatch in Evolutionary Medicine</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1609,9 +1387,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -1631,81 +1414,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-36/" >Evolutionary Transitions in Individuality by Endogenization of Scaffolded Properties</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
-    
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <ul>
-<li>British Journal for the Philosophy of Science *</li>
-</ul>
+    </div>
 
     
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-36/" >Evolutionary Transitions in Individuality by Endogenization of Scaffolded Properties</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1739,9 +1482,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -1761,79 +1509,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-37/" >The arithmetic mean of what? A Cautionary Tale about the Use of the Geometric Mean as a Measure of Fitness</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Peter Takacs</span>, <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Biology and Philosophy</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-37/" >The arithmetic mean of what? A Cautionary Tale about the Use of the Geometric Mean as a Measure of Fitness</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1867,9 +1578,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -1889,79 +1605,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-38/" >Grains of Description in Biological and Cultural Transmission</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>, <span >
       Mathieu Charbonneau</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    May, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Journal of Cognition and Culture</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-38/" >Grains of Description in Biological and Cultural Transmission</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1995,9 +1674,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2017,78 +1701,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-35/" >Unifying Heritability in Evolutionary Theory</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Studies in History and Philosophy of Science</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-35/" >Unifying Heritability in Evolutionary Theory</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -2122,9 +1769,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2144,78 +1796,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/br-3/" >hrefhttp://www.thebsps.org/reviewofbooks/bourrat-on-jablonka-and-lamb/Review textitInheritance Systems and the Extended Evolutionary Synthesis by Eva Jablonka and Marion Lamb</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    November, 2021
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>BJPS Review of Books</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/br-3/" >hrefhttp://www.thebsps.org/reviewofbooks/bourrat-on-jablonka-and-lamb/Review textitInheritance Systems and the Extended Evolutionary Synthesis by Eva Jablonka and Marion Lamb</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -2249,9 +1864,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2271,78 +1891,43 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-29/" >Taming Fitness: Organism-Environment Interdependencies Preclude Long-Term Fitness Forecasting</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Guilhem Doulcier</span>, <span >
       Peter Takacs</span>, <span >
       Pierrick \textbfBourrat$^\dagger$</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2021
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-29/" >Taming Fitness: Organism-Environment Interdependencies Preclude Long-Term Fitness Forecasting</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -2376,9 +1961,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2398,78 +1988,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-31/" >Measuring Causal Invariance Formally</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2021
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Entropy</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-31/" >Measuring Causal Invariance Formally</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -2503,9 +2056,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2525,78 +2083,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-33/" >Function, persistence, and selection: Generalizing the selected-effect account of function adequately</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2021
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Studies in History and Philosophy of Science</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-33/" >Function, persistence, and selection: Generalizing the selected-effect account of function adequately</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -2630,9 +2151,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2652,79 +2178,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-34/" >Fitness: static or dynamic?</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Peter Takacs</span>, <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2021
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>European Journal for Philosophy of Science</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-34/" >Fitness: static or dynamic?</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -2758,9 +2247,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2780,6 +2274,10 @@
 
 
 
+  
+
+
+
 
 
 
@@ -2787,87 +2285,38 @@
   
 
 
-<div class="card-simple view-card">
+<div class="media stream-item view-compact">
+  <div class="media-body">
 
-  
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/b-1/" >Facts, Conventions, and the Levels of Selection</a>
+    </div>
+
+    
+    <a href="/publication/b-1/"  class="summary-link">
+      <div class="article-style">
+        (2021) <em>Cambridge University Press</em>
+      </div>
+    </a>
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
-    
-    January, 2021
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      Cambridge University Press
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  <a href="/publication/b-1/" >
-    <div class="img-hover-zoom">
-      <img src="/publication/b-1/featured_hu288c9e063688d511b8f6983c937e1e32_96154_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
-           class="article-banner" alt="Facts, Conventions, and the Levels of Selection" loading="lazy">
     </div>
-  </a>
-  
 
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/b-1/" >Facts, Conventions, and the Levels of Selection</a>
-  </div>
-
-  
-  <a href="/publication/b-1/"  class="summary-link">
-    <div class="article-style">
-      <p>Debates concerning the units and levels of selection have persisted for over fifty years. One major question in this literature is whether units and levels of selection are genuine, in the sense that they are objective features of the world, or merely reflect the interests and goals of an observer. Scientists and philosophers have proposed a range of answers to this question. This Element introduces this literature and proposes a novel contribution. It defends a realist stance and offers a way of delineating genuine levels of selection by invoking the notion of a functional unit.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
     
+    <div class="btn-links">
+      
 
 
 
@@ -2904,9 +2353,117 @@
 
 
 
+    </div>
+    
+
   </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/b-1/" >
+      <img src="/publication/b-1/featured_hu16ab89e3f0f56535551ceb18085b475a_133853_150x0_resize_q75_h2_lanczos_3.webp" height="221" width="150"
+           alt="Facts, Conventions, and the Levels of Selection" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2020">
+          
+
+
+
+
+
+
+
   
 
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/bc-5/" >Division of Labor and Fitness Decoupling in Evolutionary Transitions in Individuality</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Guilhem Doulcier</span>, <span >
+      Katrin Hammerschmidt</span>, <span >
+      Pierrick Bourrat</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Corresponding author"></i>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/bc-5/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -2926,76 +2483,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-22/" >Natural Selection and the Reference Grain Problem</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2020
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-22/" >Natural Selection and the Reference Grain Problem</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3029,9 +2551,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3051,78 +2578,43 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-28/" >Ecological scaffolding and the evolution of individuality during the transition from cells to multicellular life</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Andrew J. Black</span>, <span >
       Pierrick Bourrat</span>, <span >
       Paul B. Rainey</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2020
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-28/" >Ecological scaffolding and the evolution of individuality during the transition from cells to multicellular life</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3156,9 +2648,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3178,76 +2675,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-26/" >Causation and SNP Heritability</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2020
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-26/" >Causation and SNP Heritability</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3281,9 +2743,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3303,76 +2770,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-20/" >Variation of Information as a Measure of One-to-One Causal Specificity</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-20/" >Variation of Information as a Measure of One-to-One Causal Specificity</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3406,9 +2838,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3428,76 +2865,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-19/" >On Calcott’s Permissive and Instructive Cause Distinction</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-19/" >On Calcott’s Permissive and Instructive Cause Distinction</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3531,9 +2933,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3553,76 +2960,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-23/" >In What Sense Can There Be Evolution by Natural Selection without Perfect Inheritance?</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-23/" >In What Sense Can There Be Evolution by Natural Selection without Perfect Inheritance?</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3656,9 +3028,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3678,78 +3055,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/e-2/" >Genetic Relatedness</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Encyclopedia of Evolutionary Psychological Science</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/e-2/" >Genetic Relatedness</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3800,9 +3140,14 @@
     URL</a>
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3822,76 +3167,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-21/" >Evolutionary Transitions in Heritability and Individuality</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-21/" >Evolutionary Transitions in Heritability and Individuality</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -3925,9 +3235,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -3947,78 +3262,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-25/" >Evolution is about Populations, but its Causes are about Individuals</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Biological Theory</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-25/" >Evolution is about Populations, but its Causes are about Individuals</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4052,9 +3330,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4074,78 +3357,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/e-3/" >Adaptations: Product of Evolution</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Encyclopedia of Evolutionary Psychological Science</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/e-3/" >Adaptations: Product of Evolution</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4196,9 +3442,14 @@
     URL</a>
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4218,77 +3469,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-17/" >The Evolutionary Gene and the Extended Evolutionary Synthesis</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Qiaoying Lu</span>, <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2018
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-17/" >The Evolutionary Gene and the Extended Evolutionary Synthesis</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4322,9 +3538,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4344,76 +3565,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-15/" >Natural Selection and Drift as Individual-Level Causes of Evolution</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2018
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-15/" >Natural Selection and Drift as Individual-Level Causes of Evolution</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4447,9 +3633,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4469,77 +3660,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-16/" >Multispecies Individuals</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>, <span >
       Paul E. Griffiths</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2018
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-16/" >Multispecies Individuals</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4573,9 +3729,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4595,79 +3756,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/e-1/" >hrefhttps://plato.stanford.edu/entries/replication/Replication and Reproduction</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       John S. Wilkins</span>, <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2018
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>The Stanford Encyclopedia of Philosophy</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/e-1/" >hrefhttps://plato.stanford.edu/entries/replication/Replication and Reproduction</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4701,9 +3825,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4723,76 +3852,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-18/" >Have Causal Claims About the Gut Microbiome Been Over-Hyped?</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2018
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-18/" >Have Causal Claims About the Gut Microbiome Been Over-Hyped?</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4843,9 +3937,14 @@
     URL</a>
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4865,78 +3964,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/br-2/" >hrefhttps://ndpr.nd.edu/news/biological-individuality-integrating-scientific-philosophical-and-historical-perspectives/Review of textitBiological Individuality: Integrating Scientific, Philosophical, and Historical Perspectives, by Scott Lidgard and Lynn K. Nyhart (eds.)</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    November, 2017
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Notre Dame Philosophical Reviews</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/br-2/" >hrefhttps://ndpr.nd.edu/news/biological-individuality-integrating-scientific-philosophical-and-historical-perspectives/Review of textitBiological Individuality: Integrating Scientific, Philosophical, and Historical Perspectives, by Scott Lidgard and Lynn K. Nyhart (eds.)</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -4970,9 +4032,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -4992,78 +4059,43 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-13/" >Why the Missing Heritability Might Not Be in the DNA</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>, <span >
       Qiaoying Lu</span>, <span >
       Eva Jablonka</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2017
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-13/" >Why the Missing Heritability Might Not Be in the DNA</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5097,9 +4129,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -5119,78 +4156,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/br-1/" >Review of textitEvolution by Natural Selection: Confidence, Evidence and the Gap, by Michaelis Michael</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2017
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Australasian Journal of Philosophy</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/br-1/" >Review of textitEvolution by Natural Selection: Confidence, Evidence and the Gap, by Michaelis Michael</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5224,9 +4224,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -5246,77 +4251,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-14/" >Interpreting Heritability Causally</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Kate E. Lynch</span>, <span >
       Pierrick \textbfBourrat*</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2017
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-14/" >Interpreting Heritability Causally</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5350,9 +4320,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -5372,76 +4347,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-11/" >Explaining Drift from a Deterministic Setting</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2017
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-11/" >Explaining Drift from a Deterministic Setting</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5475,9 +4415,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -5497,77 +4442,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-12/" >Dissolving the Missing Heritability Problem</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>, <span >
       Qiaoying Lu</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2017
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-12/" >Dissolving the Missing Heritability Problem</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5601,9 +4511,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -5623,79 +4538,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/bc-4/" >Supernatural Beliefs and the Evolution of Cooperation</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick \textbfBourrat$^\dagger$</span>, <span >
       Hugo Viciana</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2016
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Oxford Handbook of the Evolutionary Perspectives on Religion</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/bc-4/" >Supernatural Beliefs and the Evolution of Cooperation</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5729,9 +4607,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -5751,78 +4634,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/e-4/" >Sélection Naturelle</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2016
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Encyclopédie Philosophique</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/e-4/" >Sélection Naturelle</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5856,9 +4702,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -5878,76 +4729,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-10/" >Generalizing Contextual Analysis</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2016
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-10/" >Generalizing Contextual Analysis</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -5981,9 +4797,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6003,78 +4824,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/bc-3/" >Origins and evolution of religion from a Darwinian point of view: synthesis of different theories</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2015
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Handbook of Evolutionary Thinking in the Sciences</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/bc-3/" >Origins and evolution of religion from a Darwinian point of view: synthesis of different theories</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6108,9 +4892,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6130,76 +4919,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-9/" >Levels, Time and Fitness in Evolutionary Transitions in Individuality</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2015
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-9/" >Levels, Time and Fitness in Evolutionary Transitions in Individuality</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6233,9 +4987,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6255,76 +5014,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-8/" >Levels of Selection Are Artefacts of Different Fitness Temporal Measures</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2015
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-8/" >Levels of Selection Are Artefacts of Different Fitness Temporal Measures</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6358,9 +5082,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6380,76 +5109,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-6/" >How to Read `Heritability&#39; in the Recipe Approach to Natural Selection</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2015
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-6/" >How to Read `Heritability&#39; in the Recipe Approach to Natural Selection</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6483,9 +5177,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6505,76 +5204,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-7/" >Distinguishing Natural Selection from Other Evolutionary Processes in the Evolution of Altruism</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2015
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-7/" >Distinguishing Natural Selection from Other Evolutionary Processes in the Evolution of Altruism</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6608,9 +5272,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6630,76 +5299,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-5/" >From Survivors to Replicators: Evolution by Natural Selection Revisited</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2014
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-5/" >From Survivors to Replicators: Evolution by Natural Selection Revisited</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6733,9 +5367,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6755,81 +5394,44 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/bc-2/" >Small things, big consequences: Microbiological perspectives on biology</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Michael J. Duncan</span>, <span >
       Pierrick \textbfBourrat*</span>, <span >
       Jennifer DeBerardinis</span>, <span >
       Maureen O&#39;Malley</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2013
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>The Philosophy of Biology</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/bc-2/" >Small things, big consequences: Microbiological perspectives on biology</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6863,9 +5465,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -6885,78 +5492,43 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-1/" >Surveillance Cues Enhance Moral Condemnation</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>, <span >
       Nicolas Baumard</span>, <span >
       Ryan McKay</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2011
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-1/" >Surveillance Cues Enhance Moral Condemnation</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -6990,9 +5562,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -7012,78 +5589,43 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-2/" >Supernatural Punishment and Individual Social Compliance across Cultures</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick \textbfBourrat$^\dagger$</span>, <span >
       Quentin D. Atkinson</span>, <span >
       Robin IM Dunbar</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2011
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-2/" >Supernatural Punishment and Individual Social Compliance across Cultures</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -7117,9 +5659,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -7139,78 +5686,41 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/bc-1/" >L’évolution de la religion d’un point de vue darwinien : synthèse des différentes théories</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2011
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Les Mondes Darwiniens</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/bc-1/" >L’évolution de la religion d’un point de vue darwinien : synthèse des différentes théories</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -7244,9 +5754,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -7266,77 +5781,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-4/" >Is God an Adaptation? Essay Review on emphThe Evolution of God, by Robert Wright</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Hugo Viciana</span>, <span >
       Pierrick Bourrat</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2011
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-4/" >Is God an Adaptation? Essay Review on emphThe Evolution of God, by Robert Wright</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -7370,9 +5850,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -7392,77 +5877,42 @@
 
 
 
-
-
-
-
-
-<div class="card-simple view-card">
-
   
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/a-3/" >Beliefs about God, the Afterlife and Morality Support the Role of Supernatural Policing in Human Cooperation</a>
+    </div>
+
     
 
+    <div class="stream-meta article-metadata">
 
-<div class="article-metadata">
+      
 
-  
-  
-  
-  
-  <div>
-    
+      
+      <div>
+        
 
   <span >
       Quentin D. Atkinson</span>, <span >
       Pierrick \textbfBourrat*</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+      </div>
       
+    </div>
+
     
-    January, 2011
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/a-3/" >Beliefs about God, the Afterlife and Morality Support the Role of Supernatural Policing in Human Cooperation</a>
-  </div>
-
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -7496,9 +5946,14 @@
 
 
 
-  </div>
-  
+    </div>
+    
 
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
 </div>
 
         </div>
@@ -7515,50 +5970,7 @@
     
     
     <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  
-  <p class="powered-by copyright-license-text">
-    © 2022 Pierrick Bourrat.
-  </p>
-  
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
       
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
     </div>
     
   </div>
@@ -7597,10 +6009,7 @@
     
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-APnHyidN6JgJuAiwzuCv7oqixqgQv4A"></script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/hpneo/gmaps@0.4.25/gmaps.min.js" integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin="anonymous"></script>
-      
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
     
 
     
