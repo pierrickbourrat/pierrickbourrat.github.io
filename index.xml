@@ -5,7 +5,7 @@
     <link>https://pierrickbourrat.github.io/</link>
       <atom:link href="https://pierrickbourrat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Pierrick Bourrat</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 May 2022 22:05:20 +1000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 08:32:19 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
       <title>Pierrick Bourrat</title>
@@ -19,6 +19,14 @@
       <guid>https://pierrickbourrat.github.io/news/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;twitter-timeline&#34; data-theme=&#34;dark&#34; href=&#34;https://twitter.com/pierrickbourrat?ref_src=twsrc%5Etfw&#34;&gt;Tweets by pierrickbourrat&lt;/a&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Division of Labor and Fitness Decoupling in Evolutionary Transitions in Individuality</title>
+      <link>https://pierrickbourrat.github.io/publication/bc-5/</link>
+      <pubDate>Wed, 01 Jun 2022 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/bc-5/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -124,7 +132,7 @@ Briefly, ETIs are major events in the course of evolution. They include, non-exh
     </item>
     
     <item>
-      <title>Biological Causation</title>
+      <title>Causation in Biology</title>
       <link>https://pierrickbourrat.github.io/project/causation/</link>
       <pubDate>Sat, 29 May 2021 22:05:20 +1000</pubDate>
       <guid>https://pierrickbourrat.github.io/project/causation/</guid>
@@ -250,14 +258,6 @@ Briefly, ETIs are major events in the course of evolution. They include, non-exh
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 &lt;div id=&#39;ppl-widget-container&#39;&gt;One moment, publications loading ... (or view them &lt;a href=&#34;https://philpapers.org/profile/65373?widget_failed=1&#34;&gt;here&lt;/a&gt;)&lt;/div&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://philpeople.org/widget/65373.js&#34;&gt;&lt;/script&gt;</description>
-    </item>
-    
-    <item>
-      <title>Division of Labor and Fitness Decoupling in Evolutionary Transitions in Individuality</title>
-      <link>https://pierrickbourrat.github.io/publication/bc-5/</link>
-      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/bc-5/</guid>
-      <description></description>
     </item>
     
     <item>
