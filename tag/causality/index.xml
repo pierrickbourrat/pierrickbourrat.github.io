@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>causality | Pierrick Bourrat</title>
+    <title>Causality | Pierrick Bourrat</title>
     <link>https://pierrickbourrat.github.io/tag/causality/</link>
       <atom:link href="https://pierrickbourrat.github.io/tag/causality/index.xml" rel="self" type="application/rss+xml" />
-    <description>causality</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <description>Causality</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 08:32:19 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
-      <title>causality</title>
+      <title>Causality</title>
       <link>https://pierrickbourrat.github.io/tag/causality/</link>
     </image>
     
     <item>
-      <title>Have Causal Claims About the Gut Microbiome Been Over-Hyped?</title>
-      <link>https://pierrickbourrat.github.io/publication/a-18/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/a-18/</guid>
+      <title>Heritability, causal influence and locality</title>
+      <link>https://pierrickbourrat.github.io/publication/a-27/</link>
+      <pubDate>Thu, 01 Jul 2021 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-27/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural selection and drift as individual-level causes of evolution</title>
+      <link>https://pierrickbourrat.github.io/publication/a-15/</link>
+      <pubDate>Sat, 01 Sep 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-15/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://pierrickbourrat.github.io/tag/causation/</link>
       <atom:link href="https://pierrickbourrat.github.io/tag/causation/index.xml" rel="self" type="application/rss+xml" />
     <description>Causation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 08:32:19 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
       <title>Causation</title>
@@ -13,17 +13,49 @@
     </image>
     
     <item>
-      <title>On Calcott’s Permissive and Instructive Cause Distinction</title>
+      <title>Unifying heritability in evolutionary theory</title>
+      <link>https://pierrickbourrat.github.io/publication/a-35/</link>
+      <pubDate>Tue, 01 Feb 2022 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-35/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fitness: Static or dynamic?</title>
+      <link>https://pierrickbourrat.github.io/publication/a-34/</link>
+      <pubDate>Thu, 09 Dec 2021 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-34/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Causal Invariance Formally</title>
+      <link>https://pierrickbourrat.github.io/publication/a-31/</link>
+      <pubDate>Sun, 30 May 2021 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-31/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolution is about Populations, but its Causes are about Individuals</title>
+      <link>https://pierrickbourrat.github.io/publication/a-25/</link>
+      <pubDate>Sat, 12 Oct 2019 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Calcott’s permissive and instructive cause distinction</title>
       <link>https://pierrickbourrat.github.io/publication/a-19/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Nov 2018 08:32:19 +1000</pubDate>
       <guid>https://pierrickbourrat.github.io/publication/a-19/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Variation of Information as a Measure of One-to-One Causal Specificity</title>
+      <title>Variation of information as ameasure of one-to-one causal specificity</title>
       <link>https://pierrickbourrat.github.io/publication/a-20/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Nov 2018 08:32:19 +1000</pubDate>
       <guid>https://pierrickbourrat.github.io/publication/a-20/</guid>
       <description></description>
     </item>

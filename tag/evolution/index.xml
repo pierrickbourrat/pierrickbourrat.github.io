@@ -5,7 +5,7 @@
     <link>https://pierrickbourrat.github.io/tag/evolution/</link>
       <atom:link href="https://pierrickbourrat.github.io/tag/evolution/index.xml" rel="self" type="application/rss+xml" />
     <description>Evolution</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2018 08:32:19 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
       <title>Evolution</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Distinguishing Natural Selection from Other Evolutionary Processes in the Evolution of Altruism</title>
-      <link>https://pierrickbourrat.github.io/publication/a-7/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/a-7/</guid>
+      <title>Natural selection and drift as individual-level causes of evolution</title>
+      <link>https://pierrickbourrat.github.io/publication/a-15/</link>
+      <pubDate>Sat, 01 Sep 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-15/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Levels of Selection Are Artefacts of Different Fitness Temporal Measures</title>
-      <link>https://pierrickbourrat.github.io/publication/a-8/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/a-8/</guid>
+      <title>Explaining Drift from a Deterministic Setting</title>
+      <link>https://pierrickbourrat.github.io/publication/a-11/</link>
+      <pubDate>Wed, 01 Mar 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distinguishing natural selection from other evolutionary processes in the evolution of altruism</title>
+      <link>https://pierrickbourrat.github.io/publication/a-7/</link>
+      <pubDate>Thu, 04 Jun 2015 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-7/</guid>
       <description></description>
     </item>
     

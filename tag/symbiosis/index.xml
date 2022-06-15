@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Symbiosis | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/symbiosis/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/symbiosis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Symbiosis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 May 2018 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
+      <title>Symbiosis</title>
+      <link>https://pierrickbourrat.github.io/tag/symbiosis/</link>
+    </image>
+    
+    <item>
+      <title>Multispecies individuals</title>
+      <link>https://pierrickbourrat.github.io/publication/a-16/</link>
+      <pubDate>Mon, 14 May 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

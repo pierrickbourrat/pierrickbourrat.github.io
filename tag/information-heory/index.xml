@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information heory | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/information-heory/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/information-heory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Information heory</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 24 Nov 2018 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
+      <title>Information heory</title>
+      <link>https://pierrickbourrat.github.io/tag/information-heory/</link>
+    </image>
+    
+    <item>
+      <title>On Calcott’s permissive and instructive cause distinction</title>
+      <link>https://pierrickbourrat.github.io/publication/a-19/</link>
+      <pubDate>Sat, 24 Nov 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

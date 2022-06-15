@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drift | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/drift/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/drift/index.xml" rel="self" type="application/rss+xml" />
+    <description>Drift</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 12 Oct 2019 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
+      <title>Drift</title>
+      <link>https://pierrickbourrat.github.io/tag/drift/</link>
+    </image>
+    
+    <item>
+      <title>Evolution is about Populations, but its Causes are about Individuals</title>
+      <link>https://pierrickbourrat.github.io/publication/a-25/</link>
+      <pubDate>Sat, 12 Oct 2019 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural selection and drift as individual-level causes of evolution</title>
+      <link>https://pierrickbourrat.github.io/publication/a-15/</link>
+      <pubDate>Sat, 01 Sep 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explaining Drift from a Deterministic Setting</title>
+      <link>https://pierrickbourrat.github.io/publication/a-11/</link>
+      <pubDate>Wed, 01 Mar 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-11/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

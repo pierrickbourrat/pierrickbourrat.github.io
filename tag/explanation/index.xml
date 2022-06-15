@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Explanation | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/explanation/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/explanation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Explanation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Dec 2021 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
+      <title>Explanation</title>
+      <link>https://pierrickbourrat.github.io/tag/explanation/</link>
+    </image>
+    
+    <item>
+      <title>Fitness: Static or dynamic?</title>
+      <link>https://pierrickbourrat.github.io/publication/a-34/</link>
+      <pubDate>Thu, 09 Dec 2021 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-34/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

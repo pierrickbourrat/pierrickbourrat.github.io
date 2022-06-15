@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Invariance | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/invariance/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/invariance/index.xml" rel="self" type="application/rss+xml" />
+    <description>Invariance</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
+      <title>Invariance</title>
+      <link>https://pierrickbourrat.github.io/tag/invariance/</link>
+    </image>
+    
+    <item>
+      <title>Heritability, causal influence and locality</title>
+      <link>https://pierrickbourrat.github.io/publication/a-27/</link>
+      <pubDate>Thu, 01 Jul 2021 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-27/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Causal Invariance Formally</title>
+      <link>https://pierrickbourrat.github.io/publication/a-31/</link>
+      <pubDate>Sun, 30 May 2021 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-31/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural selection and drift as individual-level causes of evolution</title>
+      <link>https://pierrickbourrat.github.io/publication/a-15/</link>
+      <pubDate>Sat, 01 Sep 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>microbiome | Pierrick Bourrat</title>
+    <title>Microbiome | Pierrick Bourrat</title>
     <link>https://pierrickbourrat.github.io/tag/microbiome/</link>
       <atom:link href="https://pierrickbourrat.github.io/tag/microbiome/index.xml" rel="self" type="application/rss+xml" />
-    <description>microbiome</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <description>Microbiome</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 08:32:19 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
-      <title>microbiome</title>
+      <title>Microbiome</title>
       <link>https://pierrickbourrat.github.io/tag/microbiome/</link>
     </image>
     
     <item>
-      <title>Have Causal Claims About the Gut Microbiome Been Over-Hyped?</title>
-      <link>https://pierrickbourrat.github.io/publication/a-18/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/a-18/</guid>
+      <title>Unifying heritability in evolutionary theory</title>
+      <link>https://pierrickbourrat.github.io/publication/a-35/</link>
+      <pubDate>Tue, 01 Feb 2022 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-35/</guid>
       <description></description>
     </item>
     

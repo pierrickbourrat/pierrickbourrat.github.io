@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evolutionary Transitions in Individuality | Pierrick Bourrat</title>
+    <title>Evolutionary transitions in individuality | Pierrick Bourrat</title>
     <link>https://pierrickbourrat.github.io/tag/evolutionary-transitions-in-individuality/</link>
       <atom:link href="https://pierrickbourrat.github.io/tag/evolutionary-transitions-in-individuality/index.xml" rel="self" type="application/rss+xml" />
-    <description>Evolutionary Transitions in Individuality</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 08:32:19 +1000</lastBuildDate>
+    <description>Evolutionary transitions in individuality</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 08:32:19 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu96fe00e7de170312956be791bff65ba6_37147_512x512_fill_lanczos_center_3.png</url>
-      <title>Evolutionary Transitions in Individuality</title>
+      <title>Evolutionary transitions in individuality</title>
       <link>https://pierrickbourrat.github.io/tag/evolutionary-transitions-in-individuality/</link>
     </image>
     
     <item>
-      <title>Division of Labor and Fitness Decoupling in Evolutionary Transitions in Individuality</title>
-      <link>https://pierrickbourrat.github.io/publication/bc-5/</link>
-      <pubDate>Wed, 01 Jun 2022 08:32:19 +1000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/bc-5/</guid>
+      <title>Evolutionary Transitions in Individuality: A formal analysis</title>
+      <link>https://pierrickbourrat.github.io/publication/a-24/</link>
+      <pubDate>Thu, 01 Apr 2021 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multispecies individuals</title>
+      <link>https://pierrickbourrat.github.io/publication/a-16/</link>
+      <pubDate>Mon, 14 May 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolutionary transitions in heritability and individuality</title>
+      <link>https://pierrickbourrat.github.io/publication/a-21/</link>
+      <pubDate>Wed, 01 Mar 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Levels, time and fitness in evolutionary transitions in individuality</title>
+      <link>https://pierrickbourrat.github.io/publication/a-9/</link>
+      <pubDate>Thu, 01 Jan 2015 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-9/</guid>
       <description></description>
     </item>
     
