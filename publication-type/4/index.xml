@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/publication-type/4/</link>
+      <atom:link href="https://pierrickbourrat.github.io/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2017 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hud003f3c882ea4adaf3b595879bb5306d_50548_512x512_fill_lanczos_center_3.png</url>
+      <title>4</title>
+      <link>https://pierrickbourrat.github.io/publication-type/4/</link>
+    </image>
+    
+    <item>
+      <title>Review of Biological Individuality: Integrating Scientific, Philosophical, and Historical Perspectives by Scott Nyhart</title>
+      <link>https://pierrickbourrat.github.io/publication/br-2/</link>
+      <pubDate>Mon, 13 Nov 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of: Jablonka and Lamb, Inheritance Systems and the Extended Evolutionary Synthesis by Eva Jablonka and Marion Lamb</title>
+      <link>https://pierrickbourrat.github.io/publication/br-3/</link>
+      <pubDate>Mon, 13 Nov 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of Evolution by Natural Selection: Confidence, Evidence and the Gap, by Michaelis Michael</title>
+      <link>https://pierrickbourrat.github.io/publication/br-1/</link>
+      <pubDate>Sun, 01 Jan 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
