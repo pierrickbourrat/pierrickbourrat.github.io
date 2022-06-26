@@ -5,12 +5,20 @@
     <link>https://pierrickbourrat.github.io/publication-type/2/</link>
       <atom:link href="https://pierrickbourrat.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Mar 2022 08:32:19 +1000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 May 2022 06:19:54 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hud003f3c882ea4adaf3b595879bb5306d_50548_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://pierrickbourrat.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>On the causal interpretation of heritability from a structural causal modeling perspective</title>
+      <link>https://pierrickbourrat.github.io/publication/a-39/</link>
+      <pubDate>Fri, 27 May 2022 06:19:54 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-39/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The arithmetic mean of what? A Cautionary Tale about the Use of the Geometric Mean as a Measure of Fitness</title>
@@ -66,6 +74,14 @@
       <link>https://pierrickbourrat.github.io/publication/a-33/</link>
       <pubDate>Wed, 01 Dec 2021 08:32:19 +1000</pubDate>
       <guid>https://pierrickbourrat.github.io/publication/a-33/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Target Article: Are biological traits explained by their ‘selected effect’ functions?</title>
+      <link>https://pierrickbourrat.github.io/publication/a-40/</link>
+      <pubDate>Wed, 27 Oct 2021 06:42:16 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-40/</guid>
       <description></description>
     </item>
     
