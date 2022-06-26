@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10 | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/publication-type/10/</link>
+      <atom:link href="https://pierrickbourrat.github.io/publication-type/10/index.xml" rel="self" type="application/rss+xml" />
+    <description>10</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hud003f3c882ea4adaf3b595879bb5306d_50548_512x512_fill_lanczos_center_3.png</url>
+      <title>10</title>
+      <link>https://pierrickbourrat.github.io/publication-type/10/</link>
+    </image>
+    
+    <item>
+      <title>Adaptations: Product of Evolution</title>
+      <link>https://pierrickbourrat.github.io/publication/e-3/</link>
+      <pubDate>Tue, 01 Jan 2019 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/e-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Relatedness</title>
+      <link>https://pierrickbourrat.github.io/publication/e-2/</link>
+      <pubDate>Tue, 01 Jan 2019 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/e-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Replication and Reproduction</title>
+      <link>https://pierrickbourrat.github.io/publication/e-1/</link>
+      <pubDate>Mon, 01 Jan 2018 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/e-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sélection Naturelle</title>
+      <link>https://pierrickbourrat.github.io/publication/e-4/</link>
+      <pubDate>Fri, 01 Jan 2016 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/e-4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

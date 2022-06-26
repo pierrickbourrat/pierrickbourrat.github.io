@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9 | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/publication-type/9/</link>
+      <atom:link href="https://pierrickbourrat.github.io/publication-type/9/index.xml" rel="self" type="application/rss+xml" />
+    <description>9</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2017 08:32:19 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hud003f3c882ea4adaf3b595879bb5306d_50548_512x512_fill_lanczos_center_3.png</url>
+      <title>9</title>
+      <link>https://pierrickbourrat.github.io/publication-type/9/</link>
+    </image>
+    
+    <item>
+      <title>Review of &#39;Biological Individuality: Integrating Scientific, Philosophical, and Historical Perspectives,&#39; by Scott Lidgard and Lynn Nyhart</title>
+      <link>https://pierrickbourrat.github.io/publication/br-2/</link>
+      <pubDate>Mon, 13 Nov 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of &#39;Inheritance Systems and the Extended Evolutionary Synthesis,&#39; by Eva Jablonka and Marion Lamb</title>
+      <link>https://pierrickbourrat.github.io/publication/br-3/</link>
+      <pubDate>Mon, 13 Nov 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of &#39;Evolution by Natural Selection: Confidence, Evidence and the Gap,&#39; by Michaelis Michael</title>
+      <link>https://pierrickbourrat.github.io/publication/br-1/</link>
+      <pubDate>Sun, 01 Jan 2017 08:32:19 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/br-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
