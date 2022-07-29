@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cultural transmission | Pierrick Bourrat</title>
-    <link>https://pierrickbourrat.github.io/tag/cultural-transmission/</link>
-      <atom:link href="https://pierrickbourrat.github.io/tag/cultural-transmission/index.xml" rel="self" type="application/rss+xml" />
-    <description>Cultural transmission</description>
+    <title>grains of description | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/grains-of-description/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/grains-of-description/index.xml" rel="self" type="application/rss+xml" />
+    <description>grains of description</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 08:32:19 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hud003f3c882ea4adaf3b595879bb5306d_50548_512x512_fill_lanczos_center_3.png</url>
-      <title>Cultural transmission</title>
-      <link>https://pierrickbourrat.github.io/tag/cultural-transmission/</link>
+      <title>grains of description</title>
+      <link>https://pierrickbourrat.github.io/tag/grains-of-description/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://pierrickbourrat.github.io/publication/a-38/</link>
       <pubDate>Fri, 01 Jul 2022 08:32:19 +1000</pubDate>
       <guid>https://pierrickbourrat.github.io/publication/a-38/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fidelity and the grain problem in cultural evolution</title>
-      <link>https://pierrickbourrat.github.io/publication/a-30/</link>
-      <pubDate>Sat, 30 Jan 2021 08:32:19 +1000</pubDate>
-      <guid>https://pierrickbourrat.github.io/publication/a-30/</guid>
       <description></description>
     </item>
     
