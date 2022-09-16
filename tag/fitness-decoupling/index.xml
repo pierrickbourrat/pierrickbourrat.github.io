@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fitness decoupling | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/fitness-decoupling/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/fitness-decoupling/index.xml" rel="self" type="application/rss+xml" />
+    <description>fitness decoupling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Aug 2022 06:42:16 +1000</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hud003f3c882ea4adaf3b595879bb5306d_50548_512x512_fill_lanczos_center_3.png</url>
+      <title>fitness decoupling</title>
+      <link>https://pierrickbourrat.github.io/tag/fitness-decoupling/</link>
+    </image>
+    
+    <item>
+      <title>Tradeoff Breaking as a Model of Evolutionary Transitions in Individuality and Limits of the Fitness-Decoupling Metaphor</title>
+      <link>https://pierrickbourrat.github.io/publication/a-41/</link>
+      <pubDate>Wed, 17 Aug 2022 06:42:16 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-41/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

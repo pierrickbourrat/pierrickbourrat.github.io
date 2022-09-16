@@ -5,7 +5,7 @@
     <link>https://pierrickbourrat.github.io/</link>
       <atom:link href="https://pierrickbourrat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Pierrick Bourrat</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jul 2022 08:25:47 +1000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Aug 2022 06:42:16 +1000</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hud003f3c882ea4adaf3b595879bb5306d_50548_512x512_fill_lanczos_center_3.png</url>
       <title>Pierrick Bourrat</title>
@@ -19,6 +19,14 @@
       <guid>https://pierrickbourrat.github.io/news/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;twitter-timeline&#34; data-theme=&#34;dark&#34; href=&#34;https://twitter.com/pierrickbourrat?ref_src=twsrc%5Etfw&#34;&gt;Tweets by pierrickbourrat&lt;/a&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Tradeoff Breaking as a Model of Evolutionary Transitions in Individuality and Limits of the Fitness-Decoupling Metaphor</title>
+      <link>https://pierrickbourrat.github.io/publication/a-41/</link>
+      <pubDate>Wed, 17 Aug 2022 06:42:16 +1000</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-41/</guid>
+      <description></description>
     </item>
     
     <item>
