@@ -5,7 +5,7 @@
     <link>https://pierrickbourrat.github.io/publication/</link>
       <atom:link href="https://pierrickbourrat.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Aug 2022 06:42:16 +1000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Feb 2023 14:50:54 +1100</lastBuildDate>
     <image>
       <url>https://pierrickbourrat.github.io/media/icon_hu02e31e4d644928a96a1a736748b6fcc2_29302_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,7 +13,23 @@
     </image>
     
     <item>
-      <title>Tradeoff Breaking as a Model of Evolutionary Transitions in Individuality and Limits of the Fitness-Decoupling Metaphor</title>
+      <title>A Pricean formalization of Gaia</title>
+      <link>https://pierrickbourrat.github.io/publication/a-43/</link>
+      <pubDate>Thu, 16 Feb 2023 14:50:54 +1100</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-43/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When local causes are more explanatorily useful</title>
+      <link>https://pierrickbourrat.github.io/publication/c-1/</link>
+      <pubDate>Thu, 16 Feb 2023 10:26:04 +1100</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/c-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tradeoff breaking as a model of evolutionary transitions in individuality and limits of the fitness-decoupling metaphor</title>
       <link>https://pierrickbourrat.github.io/publication/a-41/</link>
       <pubDate>Wed, 17 Aug 2022 06:42:16 +1000</pubDate>
       <guid>https://pierrickbourrat.github.io/publication/a-41/</guid>
