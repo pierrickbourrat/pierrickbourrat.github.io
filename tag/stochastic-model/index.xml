@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stochastic model | Pierrick Bourrat</title>
+    <link>https://pierrickbourrat.github.io/tag/stochastic-model/</link>
+      <atom:link href="https://pierrickbourrat.github.io/tag/stochastic-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stochastic model</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Feb 2023 10:43:51 +1100</lastBuildDate>
+    <image>
+      <url>https://pierrickbourrat.github.io/media/icon_hu02e31e4d644928a96a1a736748b6fcc2_29302_512x512_fill_lanczos_center_3.png</url>
+      <title>Stochastic model</title>
+      <link>https://pierrickbourrat.github.io/tag/stochastic-model/</link>
+    </image>
+    
+    <item>
+      <title>The effect of bottleneck size on evolution in nested Darwinian populations</title>
+      <link>https://pierrickbourrat.github.io/publication/a-42/</link>
+      <pubDate>Thu, 16 Feb 2023 10:43:51 +1100</pubDate>
+      <guid>https://pierrickbourrat.github.io/publication/a-42/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
